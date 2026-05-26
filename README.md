@@ -1,9 +1,11 @@
 # code-graph-go
 
-`go install github.com/renso-ai/code-graph-go/cmd/code_graph@v1.0.9`
-
-Thin download-on-first-run launcher for the prebuilt
+Distribution-compatibility launcher for the prebuilt
 `code_graph` and `code_graph-mcp` binaries.
+
+Customer-facing install docs live at
+https://cg.renso.ai/docs#install and document the
+curl/script installer.
 
 Code Graph is proprietary software, (c) Renso AI - all rights
 reserved. It is NOT open source. See https://cg.renso.ai. This
