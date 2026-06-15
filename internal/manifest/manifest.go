@@ -4,7 +4,7 @@
 package manifest
 
 // Version of the upstream code_graph release this module is pinned to.
-const Version = "1.2.2"
+const Version = "1.3.0"
 
 // ReleaseURLBase is the GitHub Releases prefix; the launcher appends
 // "/v<Version>/<binary>-<target>.<ext>" to form the download URL.
@@ -14,14 +14,14 @@ const ReleaseURLBase = "https://github.com/Renso-AI/code-graph-dist/releases/dow
 // hex-encoded SHA256, baked in so the launcher can verify downloads
 // without trusting any extra metadata fetched at runtime.
 var SHA256SUMS = map[string]string{
-	"code_graph-aarch64-apple-darwin.tar.gz":          "8ef7592285299491ebccea75e6f6ce8c9cc24be224a18bdf4c211828211e89db",
-	"code_graph-mcp-aarch64-apple-darwin.tar.gz":      "a78bf019589962701374da84f5c56e2b2b85ad95ad381831ab299e7be032dd28",
-	"code_graph-aarch64-unknown-linux-gnu.tar.gz":     "f744cc2932c418a67d17cba20f70ce17db64cf8d93ac20bd187423cd04d3bc26",
-	"code_graph-mcp-aarch64-unknown-linux-gnu.tar.gz": "47a4f9f79bb3ff0d4292d9a3e99e47992c57f0919b0e64ca63b5ea3817cbf4ec",
-	"code_graph-x86_64-apple-darwin.tar.gz":           "05b2843620edb14da685c6c750fc5335991da281c1d1c90e0b15a52cbe748f97",
-	"code_graph-mcp-x86_64-apple-darwin.tar.gz":       "208034fa7bafc57078f997eaab7dd6dd7d535b828d60030f9cef69eba742cf5c",
-	"code_graph-x86_64-pc-windows-msvc.zip":           "7f2d25590acfeebda67da3fc3b6d560d17d825d24d2db56b684daed5205762e9",
-	"code_graph-mcp-x86_64-pc-windows-msvc.zip":       "8d84fcb54ae27584bff5dfb65819e1038eff338b01075c99d86783c609ceddb8",
-	"code_graph-x86_64-unknown-linux-gnu.tar.gz":      "8fc3df3fadea4643f60ad0294013ff2710570450f40c00ba787721c0c58ac040",
-	"code_graph-mcp-x86_64-unknown-linux-gnu.tar.gz":  "7d0e93a54ff2894032785232337244f85ef366e1f71703880ec286326bbabdac",
+	"code_graph-aarch64-apple-darwin.tar.gz":          "a1477358c62576b2fef131136743c0fa8f76b6b27b7eb792c2ce42e13b20959d",
+	"code_graph-mcp-aarch64-apple-darwin.tar.gz":      "14c6bb8ca39e5a586cdea5a266fb7c0d033520516743bac5d0e21eb9b36882aa",
+	"code_graph-aarch64-unknown-linux-gnu.tar.gz":     "fb17f62634d84e8bb7bc58a30c0711aa61b75970b634ef370dbbe73c1b128c95",
+	"code_graph-mcp-aarch64-unknown-linux-gnu.tar.gz": "85c695446a860f3a33514c3ee3dfcd6ed1ddd70697f530b46fd5e0b12c46a011",
+	"code_graph-x86_64-apple-darwin.tar.gz":           "821e86257310707887a7dcc2d473fde3a925f9f5b223498eda760d127ca45cec",
+	"code_graph-mcp-x86_64-apple-darwin.tar.gz":       "84b49d8f677abd7df5bd6901a188c647bb4995c06c132d50310d38b756b1e782",
+	"code_graph-x86_64-pc-windows-msvc.zip":           "57fea9f0a9201231a13484b81b60c210fb71a70857c423b7cd963c39dc577ffb",
+	"code_graph-mcp-x86_64-pc-windows-msvc.zip":       "f5f6d50cbf0d4ea615bab7f70e2a29d2187f1152ced054019a0aa8da5fdd5cff",
+	"code_graph-x86_64-unknown-linux-gnu.tar.gz":      "5843da175d4f31dc289543acb4d4fb42d507a4d6ba8f89057b6f5c253a5ad49c",
+	"code_graph-mcp-x86_64-unknown-linux-gnu.tar.gz":  "33f98fb5241e071264dd9d25ebe3d1469848263cd17e3151d059fb3eccb42a6c",
 }
